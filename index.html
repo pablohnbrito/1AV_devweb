@@ -22,12 +22,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-
     <div class="container">
         <div class="login">
             <h2>Tela de Login</h2>
-            <form action="#">
+            <form method="post" id="loginForm">
                 <div class="form-group">
                     <label for="username">Usuário:</label>
                     <input type="text" id="username" name="username" required>
@@ -36,9 +34,10 @@
                     <label for="password">Senha:</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <a href="home.html"><input type="submit" value="Enviar"></a>
+                <input type="submit" value="Enviar">
             </form>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
